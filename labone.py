@@ -33,6 +33,6 @@ def temperature_check(temp, unit):
             return "The patient has a normal body temperature"
     else:
         return "Please provide a valid unit (C for Celsius, F for Fahrenheit)"
-temperature_check(14, "C")
+
 
 
