@@ -1,0 +1,2 @@
+VBoxManage setextradata "windows11" "CustomVideoMode1" "1280x540x32"
+VBoxManage controlvm "windows11" setvideomodehint 1280 540 32

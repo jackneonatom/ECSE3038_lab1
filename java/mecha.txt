@@ -1,0 +1,21 @@
+ if((millTime < 2000) )
+  {
+    while(buttonState!=1)
+    {
+   digitalWrite(led, HIGH);
+   delay(500);
+   
+    }
+
+  }
+  else if(millTime >= 2000)
+  {
+    while(buttonState!=0)
+    {
+   digitalWrite(led, HIGH);
+   delay(500);
+   digitalWrite(led, LOW);
+   delay(500);
+    }
+
+  }

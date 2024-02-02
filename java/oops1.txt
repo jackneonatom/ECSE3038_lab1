@@ -1,0 +1,42 @@
+-programming methodloly
+-6 pillars
+1)class
+2)objects and methods
+3)inheritance
+4)polymorphism
+5)abtraction
+6)encapcilation
+
+access modifiers:
+private
+public
+protected
+default
+
+
+
+syntax of a class
+access modifier class ClassName{}
+ compile: javac you.java
+ run: java B
+
+symntax of a method:
+Writtentype methodName(list of paramenters)
+{}
+
+objects:
+1) real world entity
+2) memory
+objects consist of:
+1)identity:Name
+2)Atrributes/states:AGe.Breed,colour.
+3)behaviour:
+
+interfaces are the blue prints of the class. It specify what a class must do and not how.
+ 
+ -It is used to achieve abstraction
+ -It supports multiple inheritance
+ -It can be jised to achieve loose coupling(not totally dependent) 
+ loose coupling is a design goal that seeks to reduce the inter dependencies between the components of a system
+ with the goal of reducing the risk that changes in one component will require changes in any other components.
+ Example
