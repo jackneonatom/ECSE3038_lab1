@@ -12,10 +12,11 @@ def parallel(r):
     eqr=0
     for i in r:
         count=count+1
-        if count==len(r):
+        while count!=len(r):
             
-            total=1/sum(i)
-            eqr=1/total
+            total=1/i
+            a=total
+            b=total+a
         else:
             print(" ")
     return total
