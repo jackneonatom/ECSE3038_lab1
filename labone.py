@@ -21,3 +21,5 @@ def parallel(r):
             print(" ")
     return total
 parallel([330, 1000, 2200])
+
+#number 2
